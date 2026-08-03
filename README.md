@@ -6,6 +6,8 @@ OrgGraph maps people, skills, teams and projects as a connected graph, so questi
 *relationships* — "who should I loop in?", "how are these two people connected?", "who bridges these two teams?" —
 are a graph traversal away instead of a pile of joins.
 
+**Live demo:** [orggraph-wexa.vercel.app](https://orggraph-wexa.vercel.app)
+
 ![Dashboard](docs/screenshots/dashboard.png)
 
 ---
