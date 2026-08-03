@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #f8fafc;
+  --foreground: #0f172a;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .skeleton {
+    @apply animate-pulse rounded-md bg-slate-200;
+  }
+}
+
+/* react-force-graph renders into a canvas; make sure its wrapper never overflows the card. */
+.force-graph-wrapper canvas {
+  border-radius: 0.75rem;
+}
